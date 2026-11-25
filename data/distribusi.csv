@@ -1,0 +1,439 @@
+app,sumber,aspek,kelas,jumlah
+BCA mobile,manual,a_akses,0,82
+BCA mobile,manual,a_akses,1,35
+BCA mobile,manual,a_akses,2,3
+BCA mobile,manual,a_akses,3,2
+BCA mobile,manual,a_biaya,0,113
+BCA mobile,manual,a_biaya,1,6
+BCA mobile,manual,a_biaya,2,2
+BCA mobile,manual,a_biaya,3,1
+BCA mobile,manual,a_blokir,0,104
+BCA mobile,manual,a_blokir,1,17
+BCA mobile,manual,a_blokir,2,1
+BCA mobile,manual,a_dana,0,103
+BCA mobile,manual,a_dana,1,15
+BCA mobile,manual,a_dana,2,4
+BCA mobile,manual,a_keamanan,0,107
+BCA mobile,manual,a_keamanan,1,6
+BCA mobile,manual,a_keamanan,2,5
+BCA mobile,manual,a_keamanan,3,4
+BCA mobile,manual,a_transaksi,0,80
+BCA mobile,manual,a_transaksi,1,32
+BCA mobile,manual,a_transaksi,2,3
+BCA mobile,manual,a_transaksi,3,7
+BCA mobile,model,a_akses,0,4779
+BCA mobile,model,a_akses,1,2377
+BCA mobile,model,a_akses,2,2
+BCA mobile,model,a_akses,3,69
+BCA mobile,model,a_biaya,0,6943
+BCA mobile,model,a_biaya,1,275
+BCA mobile,model,a_biaya,2,4
+BCA mobile,model,a_biaya,3,5
+BCA mobile,model,a_blokir,0,6648
+BCA mobile,model,a_blokir,1,573
+BCA mobile,model,a_blokir,2,1
+BCA mobile,model,a_blokir,3,5
+BCA mobile,model,a_dana,0,6177
+BCA mobile,model,a_dana,1,1035
+BCA mobile,model,a_dana,2,9
+BCA mobile,model,a_dana,3,6
+BCA mobile,model,a_keamanan,0,7016
+BCA mobile,model,a_keamanan,1,112
+BCA mobile,model,a_keamanan,2,18
+BCA mobile,model,a_keamanan,3,81
+BCA mobile,model,a_transaksi,0,4600
+BCA mobile,model,a_transaksi,1,2271
+BCA mobile,model,a_transaksi,2,43
+BCA mobile,model,a_transaksi,3,313
+BNI Mobile,manual,a_akses,0,48
+BNI Mobile,manual,a_akses,1,36
+BNI Mobile,manual,a_akses,2,1
+BNI Mobile,manual,a_akses,3,3
+BNI Mobile,manual,a_biaya,0,84
+BNI Mobile,manual,a_biaya,1,3
+BNI Mobile,manual,a_biaya,2,1
+BNI Mobile,manual,a_blokir,0,84
+BNI Mobile,manual,a_blokir,1,3
+BNI Mobile,manual,a_blokir,2,1
+BNI Mobile,manual,a_dana,0,80
+BNI Mobile,manual,a_dana,1,8
+BNI Mobile,manual,a_keamanan,0,78
+BNI Mobile,manual,a_keamanan,1,4
+BNI Mobile,manual,a_keamanan,2,3
+BNI Mobile,manual,a_keamanan,3,3
+BNI Mobile,manual,a_transaksi,0,59
+BNI Mobile,manual,a_transaksi,1,22
+BNI Mobile,manual,a_transaksi,2,5
+BNI Mobile,manual,a_transaksi,3,2
+BNI Mobile,model,a_akses,0,4426
+BNI Mobile,model,a_akses,1,3080
+BNI Mobile,model,a_akses,2,5
+BNI Mobile,model,a_akses,3,46
+BNI Mobile,model,a_biaya,0,7476
+BNI Mobile,model,a_biaya,1,73
+BNI Mobile,model,a_biaya,2,5
+BNI Mobile,model,a_biaya,3,3
+BNI Mobile,model,a_blokir,0,7235
+BNI Mobile,model,a_blokir,1,322
+BNI Mobile,model,a_dana,0,7031
+BNI Mobile,model,a_dana,1,521
+BNI Mobile,model,a_dana,2,1
+BNI Mobile,model,a_dana,3,4
+BNI Mobile,model,a_keamanan,0,7422
+BNI Mobile,model,a_keamanan,1,68
+BNI Mobile,model,a_keamanan,2,17
+BNI Mobile,model,a_keamanan,3,50
+BNI Mobile,model,a_transaksi,0,5333
+BNI Mobile,model,a_transaksi,1,1976
+BNI Mobile,model,a_transaksi,2,41
+BNI Mobile,model,a_transaksi,3,207
+BRImo,manual,a_akses,0,65
+BRImo,manual,a_akses,1,17
+BRImo,manual,a_akses,3,4
+BRImo,manual,a_biaya,0,75
+BRImo,manual,a_biaya,1,9
+BRImo,manual,a_biaya,3,2
+BRImo,manual,a_blokir,0,73
+BRImo,manual,a_blokir,1,12
+BRImo,manual,a_blokir,3,1
+BRImo,manual,a_dana,0,76
+BRImo,manual,a_dana,1,9
+BRImo,manual,a_dana,2,1
+BRImo,manual,a_keamanan,0,74
+BRImo,manual,a_keamanan,1,5
+BRImo,manual,a_keamanan,2,1
+BRImo,manual,a_keamanan,3,6
+BRImo,manual,a_transaksi,0,60
+BRImo,manual,a_transaksi,1,6
+BRImo,manual,a_transaksi,3,20
+BRImo,model,a_akses,0,4063
+BRImo,model,a_akses,1,1309
+BRImo,model,a_akses,2,2
+BRImo,model,a_akses,3,142
+BRImo,model,a_biaya,0,5275
+BRImo,model,a_biaya,1,212
+BRImo,model,a_biaya,2,4
+BRImo,model,a_biaya,3,25
+BRImo,model,a_blokir,0,4888
+BRImo,model,a_blokir,1,622
+BRImo,model,a_blokir,3,6
+BRImo,model,a_dana,0,5091
+BRImo,model,a_dana,1,418
+BRImo,model,a_dana,2,1
+BRImo,model,a_dana,3,6
+BRImo,model,a_keamanan,0,5257
+BRImo,model,a_keamanan,1,101
+BRImo,model,a_keamanan,2,15
+BRImo,model,a_keamanan,3,143
+BRImo,model,a_transaksi,0,4064
+BRImo,model,a_transaksi,1,680
+BRImo,model,a_transaksi,2,40
+BRImo,model,a_transaksi,3,732
+DANA,manual,a_akses,0,102
+DANA,manual,a_akses,1,9
+DANA,manual,a_akses,2,2
+DANA,manual,a_akses,3,1
+DANA,manual,a_biaya,0,106
+DANA,manual,a_biaya,1,6
+DANA,manual,a_biaya,3,2
+DANA,manual,a_blokir,0,101
+DANA,manual,a_blokir,1,13
+DANA,manual,a_dana,0,98
+DANA,manual,a_dana,1,16
+DANA,manual,a_keamanan,0,96
+DANA,manual,a_keamanan,1,8
+DANA,manual,a_keamanan,2,3
+DANA,manual,a_keamanan,3,7
+DANA,manual,a_transaksi,0,88
+DANA,manual,a_transaksi,1,10
+DANA,manual,a_transaksi,2,2
+DANA,manual,a_transaksi,3,14
+DANA,model,a_akses,0,4697
+DANA,model,a_akses,1,532
+DANA,model,a_akses,2,1
+DANA,model,a_akses,3,35
+DANA,model,a_biaya,0,5062
+DANA,model,a_biaya,1,155
+DANA,model,a_biaya,2,1
+DANA,model,a_biaya,3,47
+DANA,model,a_blokir,0,4986
+DANA,model,a_blokir,1,278
+DANA,model,a_blokir,2,1
+DANA,model,a_dana,0,4345
+DANA,model,a_dana,1,914
+DANA,model,a_dana,2,3
+DANA,model,a_dana,3,3
+DANA,model,a_keamanan,0,4805
+DANA,model,a_keamanan,1,329
+DANA,model,a_keamanan,2,21
+DANA,model,a_keamanan,3,110
+DANA,model,a_transaksi,0,3740
+DANA,model,a_transaksi,1,1091
+DANA,model,a_transaksi,2,16
+DANA,model,a_transaksi,3,418
+GoPay,manual,a_akses,0,56
+GoPay,manual,a_akses,1,1
+GoPay,manual,a_akses,2,1
+GoPay,manual,a_biaya,0,45
+GoPay,manual,a_biaya,1,2
+GoPay,manual,a_biaya,2,1
+GoPay,manual,a_biaya,3,10
+GoPay,manual,a_blokir,0,55
+GoPay,manual,a_blokir,1,3
+GoPay,manual,a_dana,0,38
+GoPay,manual,a_dana,1,15
+GoPay,manual,a_dana,2,2
+GoPay,manual,a_dana,3,3
+GoPay,manual,a_keamanan,0,48
+GoPay,manual,a_keamanan,1,6
+GoPay,manual,a_keamanan,2,1
+GoPay,manual,a_keamanan,3,3
+GoPay,manual,a_transaksi,0,30
+GoPay,manual,a_transaksi,1,10
+GoPay,manual,a_transaksi,2,4
+GoPay,manual,a_transaksi,3,14
+GoPay,model,a_akses,0,4499
+GoPay,model,a_akses,1,330
+GoPay,model,a_akses,2,1
+GoPay,model,a_akses,3,80
+GoPay,model,a_biaya,0,4461
+GoPay,model,a_biaya,1,191
+GoPay,model,a_biaya,3,258
+GoPay,model,a_blokir,0,4788
+GoPay,model,a_blokir,1,116
+GoPay,model,a_blokir,2,1
+GoPay,model,a_blokir,3,5
+GoPay,model,a_dana,0,4217
+GoPay,model,a_dana,1,688
+GoPay,model,a_dana,2,1
+GoPay,model,a_dana,3,4
+GoPay,model,a_keamanan,0,4484
+GoPay,model,a_keamanan,1,209
+GoPay,model,a_keamanan,2,12
+GoPay,model,a_keamanan,3,205
+GoPay,model,a_transaksi,0,3343
+GoPay,model,a_transaksi,1,965
+GoPay,model,a_transaksi,2,18
+GoPay,model,a_transaksi,3,584
+Jenius,manual,a_akses,0,85
+Jenius,manual,a_akses,1,37
+Jenius,manual,a_akses,3,9
+Jenius,manual,a_biaya,0,109
+Jenius,manual,a_biaya,1,11
+Jenius,manual,a_biaya,2,1
+Jenius,manual,a_biaya,3,10
+Jenius,manual,a_blokir,0,108
+Jenius,manual,a_blokir,1,12
+Jenius,manual,a_blokir,2,4
+Jenius,manual,a_blokir,3,7
+Jenius,manual,a_dana,0,116
+Jenius,manual,a_dana,1,8
+Jenius,manual,a_dana,2,1
+Jenius,manual,a_dana,3,6
+Jenius,manual,a_keamanan,0,107
+Jenius,manual,a_keamanan,1,12
+Jenius,manual,a_keamanan,3,12
+Jenius,manual,a_transaksi,0,97
+Jenius,manual,a_transaksi,1,9
+Jenius,manual,a_transaksi,2,3
+Jenius,manual,a_transaksi,3,22
+Jenius,model,a_akses,0,5414
+Jenius,model,a_akses,1,2654
+Jenius,model,a_akses,2,6
+Jenius,model,a_akses,3,225
+Jenius,model,a_biaya,0,7506
+Jenius,model,a_biaya,1,628
+Jenius,model,a_biaya,2,2
+Jenius,model,a_biaya,3,163
+Jenius,model,a_blokir,0,7201
+Jenius,model,a_blokir,1,826
+Jenius,model,a_blokir,3,272
+Jenius,model,a_dana,0,7606
+Jenius,model,a_dana,1,549
+Jenius,model,a_dana,2,6
+Jenius,model,a_dana,3,138
+Jenius,model,a_keamanan,0,7684
+Jenius,model,a_keamanan,1,416
+Jenius,model,a_keamanan,2,9
+Jenius,model,a_keamanan,3,190
+Jenius,model,a_transaksi,0,6552
+Jenius,model,a_transaksi,1,777
+Jenius,model,a_transaksi,2,39
+Jenius,model,a_transaksi,3,931
+LinkAja,manual,a_akses,0,99
+LinkAja,manual,a_akses,1,20
+LinkAja,manual,a_akses,2,1
+LinkAja,manual,a_akses,3,2
+LinkAja,manual,a_biaya,0,110
+LinkAja,manual,a_biaya,1,8
+LinkAja,manual,a_biaya,2,1
+LinkAja,manual,a_biaya,3,3
+LinkAja,manual,a_blokir,0,101
+LinkAja,manual,a_blokir,1,17
+LinkAja,manual,a_blokir,2,4
+LinkAja,manual,a_dana,0,95
+LinkAja,manual,a_dana,1,21
+LinkAja,manual,a_dana,2,5
+LinkAja,manual,a_dana,3,1
+LinkAja,manual,a_keamanan,0,98
+LinkAja,manual,a_keamanan,1,16
+LinkAja,manual,a_keamanan,2,1
+LinkAja,manual,a_keamanan,3,7
+LinkAja,manual,a_transaksi,0,66
+LinkAja,manual,a_transaksi,1,37
+LinkAja,manual,a_transaksi,2,8
+LinkAja,manual,a_transaksi,3,11
+LinkAja,model,a_akses,0,5180
+LinkAja,model,a_akses,1,1484
+LinkAja,model,a_akses,2,4
+LinkAja,model,a_akses,3,34
+LinkAja,model,a_biaya,0,6361
+LinkAja,model,a_biaya,1,310
+LinkAja,model,a_biaya,2,2
+LinkAja,model,a_biaya,3,29
+LinkAja,model,a_blokir,0,6185
+LinkAja,model,a_blokir,1,515
+LinkAja,model,a_blokir,3,2
+LinkAja,model,a_dana,0,4885
+LinkAja,model,a_dana,1,1807
+LinkAja,model,a_dana,2,8
+LinkAja,model,a_dana,3,2
+LinkAja,model,a_keamanan,0,6280
+LinkAja,model,a_keamanan,1,361
+LinkAja,model,a_keamanan,2,10
+LinkAja,model,a_keamanan,3,51
+LinkAja,model,a_transaksi,0,4179
+LinkAja,model,a_transaksi,1,2206
+LinkAja,model,a_transaksi,2,53
+LinkAja,model,a_transaksi,3,264
+Livin by Mandiri,manual,a_akses,0,45
+Livin by Mandiri,manual,a_akses,1,13
+Livin by Mandiri,manual,a_akses,3,3
+Livin by Mandiri,manual,a_biaya,0,57
+Livin by Mandiri,manual,a_biaya,1,3
+Livin by Mandiri,manual,a_biaya,2,1
+Livin by Mandiri,manual,a_blokir,0,47
+Livin by Mandiri,manual,a_blokir,1,11
+Livin by Mandiri,manual,a_blokir,2,3
+Livin by Mandiri,manual,a_dana,0,56
+Livin by Mandiri,manual,a_dana,1,5
+Livin by Mandiri,manual,a_keamanan,0,48
+Livin by Mandiri,manual,a_keamanan,1,6
+Livin by Mandiri,manual,a_keamanan,2,3
+Livin by Mandiri,manual,a_keamanan,3,4
+Livin by Mandiri,manual,a_transaksi,0,50
+Livin by Mandiri,manual,a_transaksi,1,5
+Livin by Mandiri,manual,a_transaksi,2,2
+Livin by Mandiri,manual,a_transaksi,3,4
+Livin by Mandiri,model,a_akses,0,5456
+Livin by Mandiri,model,a_akses,1,1125
+Livin by Mandiri,model,a_akses,3,46
+Livin by Mandiri,model,a_biaya,0,6265
+Livin by Mandiri,model,a_biaya,1,346
+Livin by Mandiri,model,a_biaya,2,1
+Livin by Mandiri,model,a_biaya,3,15
+Livin by Mandiri,model,a_blokir,0,4870
+Livin by Mandiri,model,a_blokir,1,1755
+Livin by Mandiri,model,a_blokir,2,1
+Livin by Mandiri,model,a_blokir,3,1
+Livin by Mandiri,model,a_dana,0,5905
+Livin by Mandiri,model,a_dana,1,719
+Livin by Mandiri,model,a_dana,2,1
+Livin by Mandiri,model,a_dana,3,2
+Livin by Mandiri,model,a_keamanan,0,5777
+Livin by Mandiri,model,a_keamanan,1,786
+Livin by Mandiri,model,a_keamanan,2,13
+Livin by Mandiri,model,a_keamanan,3,51
+Livin by Mandiri,model,a_transaksi,0,6032
+Livin by Mandiri,model,a_transaksi,1,375
+Livin by Mandiri,model,a_transaksi,2,25
+Livin by Mandiri,model,a_transaksi,3,195
+OVO,manual,a_akses,0,124
+OVO,manual,a_akses,1,29
+OVO,manual,a_akses,2,1
+OVO,manual,a_biaya,0,111
+OVO,manual,a_biaya,1,40
+OVO,manual,a_biaya,2,3
+OVO,manual,a_blokir,0,145
+OVO,manual,a_blokir,1,9
+OVO,manual,a_dana,0,103
+OVO,manual,a_dana,1,47
+OVO,manual,a_dana,2,1
+OVO,manual,a_dana,3,3
+OVO,manual,a_keamanan,0,135
+OVO,manual,a_keamanan,1,18
+OVO,manual,a_keamanan,2,1
+OVO,manual,a_transaksi,0,86
+OVO,manual,a_transaksi,1,55
+OVO,manual,a_transaksi,2,10
+OVO,manual,a_transaksi,3,3
+OVO,model,a_akses,0,6014
+OVO,model,a_akses,1,1994
+OVO,model,a_akses,2,2
+OVO,model,a_akses,3,27
+OVO,model,a_biaya,0,6769
+OVO,model,a_biaya,1,1236
+OVO,model,a_biaya,2,6
+OVO,model,a_biaya,3,26
+OVO,model,a_blokir,0,7540
+OVO,model,a_blokir,1,495
+OVO,model,a_blokir,3,2
+OVO,model,a_dana,0,5605
+OVO,model,a_dana,1,2425
+OVO,model,a_dana,2,4
+OVO,model,a_dana,3,3
+OVO,model,a_keamanan,0,7495
+OVO,model,a_keamanan,1,499
+OVO,model,a_keamanan,2,7
+OVO,model,a_keamanan,3,36
+OVO,model,a_transaksi,0,5067
+OVO,model,a_transaksi,1,2741
+OVO,model,a_transaksi,2,100
+OVO,model,a_transaksi,3,129
+myBCA,manual,a_akses,0,63
+myBCA,manual,a_akses,1,51
+myBCA,manual,a_akses,2,5
+myBCA,manual,a_akses,3,5
+myBCA,manual,a_biaya,0,111
+myBCA,manual,a_biaya,1,10
+myBCA,manual,a_biaya,2,1
+myBCA,manual,a_biaya,3,2
+myBCA,manual,a_blokir,0,93
+myBCA,manual,a_blokir,1,22
+myBCA,manual,a_blokir,2,5
+myBCA,manual,a_blokir,3,4
+myBCA,manual,a_dana,0,114
+myBCA,manual,a_dana,1,8
+myBCA,manual,a_dana,2,1
+myBCA,manual,a_dana,3,1
+myBCA,manual,a_keamanan,0,115
+myBCA,manual,a_keamanan,1,2
+myBCA,manual,a_keamanan,2,2
+myBCA,manual,a_keamanan,3,5
+myBCA,manual,a_transaksi,0,105
+myBCA,manual,a_transaksi,1,12
+myBCA,manual,a_transaksi,3,7
+myBCA,model,a_akses,0,3840
+myBCA,model,a_akses,1,3428
+myBCA,model,a_akses,2,3
+myBCA,model,a_akses,3,78
+myBCA,model,a_biaya,0,7130
+myBCA,model,a_biaya,1,208
+myBCA,model,a_biaya,2,1
+myBCA,model,a_biaya,3,10
+myBCA,model,a_blokir,0,6607
+myBCA,model,a_blokir,1,736
+myBCA,model,a_blokir,2,1
+myBCA,model,a_blokir,3,5
+myBCA,model,a_dana,0,6626
+myBCA,model,a_dana,1,707
+myBCA,model,a_dana,2,1
+myBCA,model,a_dana,3,15
+myBCA,model,a_keamanan,0,7180
+myBCA,model,a_keamanan,1,82
+myBCA,model,a_keamanan,2,11
+myBCA,model,a_keamanan,3,76
+myBCA,model,a_transaksi,0,5801
+myBCA,model,a_transaksi,1,1255
+myBCA,model,a_transaksi,2,32
+myBCA,model,a_transaksi,3,261

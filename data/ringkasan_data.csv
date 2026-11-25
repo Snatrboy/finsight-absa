@@ -1,0 +1,9 @@
+﻿,Tahapan,Jumlah,Persen dari data scraping
+0,Data hasil scraping (asli),100000,100.0
+1,Data setelah cleaning,68549,68.55
+2,Gold (sampel utama + batch tambahan),1060,1.06
+3,  - latih awal (sampel utama),450,0.45
+4,"  - uji aplikasi sama (te_id, utama + tambahan)",176,0.18
+5,"  - uji aplikasi baru (te_ood, utama + tambahan)",119,0.12
+6,Gold tambahan (latih),315,0.32
+7,Data latih yang dipakai model (TRAIN_ALL),765,0.76

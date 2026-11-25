@@ -1,0 +1,11 @@
+{
+  "repo_id": "Farreljuan-10/finsight-absa-models",
+  "revision": "75c28b9aed0ff793414d436cc280116d8436280b",
+  "private": true,
+  "model_count": 36,
+  "verified_files": 106,
+  "total_bytes": 3496211618,
+  "sklearn": "1.6.1",
+  "torch": "2.14.1+cpu",
+  "transformers": "5.22.1"
+}

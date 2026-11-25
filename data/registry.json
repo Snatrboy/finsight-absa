@@ -1,0 +1,2253 @@
+[
+  {
+    "name": "Kelas terbanyak",
+    "phase": "A",
+    "mode": "tanpa",
+    "family": "majority",
+    "variant": null,
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.0,
+        "presisi": 0.0,
+        "recall": 0.0,
+        "F1_pasangan_berbobot": 0.0,
+        "F1_deteksi": 0.0,
+        "F1_sentimen": 0.0,
+        "F1_negatif": 0.0,
+        "F1_netral": 0.0,
+        "F1_positif": 0.0,
+        "akurasi": 0.8011363636363636
+      },
+      "test_ood": {
+        "F1_pasangan": 0.0,
+        "presisi": 0.0,
+        "recall": 0.0,
+        "F1_pasangan_berbobot": 0.0,
+        "F1_deteksi": 0.0,
+        "F1_sentimen": 0.0,
+        "F1_negatif": 0.0,
+        "F1_netral": 0.0,
+        "F1_positif": 0.0,
+        "akurasi": 0.8053221288515405
+      }
+    },
+    "artifact_id": "ca41c07a01b49db4"
+  },
+  {
+    "name": "LogReg TF-IDF",
+    "phase": "A",
+    "mode": "tanpa",
+    "family": "lr",
+    "variant": null,
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6616161616161615,
+        "presisi": 0.7043010752688172,
+        "recall": 0.6238095238095238,
+        "F1_pasangan_berbobot": 0.6730735666886313,
+        "F1_deteksi": 0.7323232323232324,
+        "F1_sentimen": 0.36791027452259334,
+        "F1_negatif": 0.7322033898305085,
+        "F1_netral": 0.07142857142857142,
+        "F1_positif": 0.6027397260273972,
+        "akurasi": 0.8863636363636364
+      },
+      "test_ood": {
+        "F1_pasangan": 0.5619834710743803,
+        "presisi": 0.6601941747572816,
+        "recall": 0.4892086330935252,
+        "F1_pasangan_berbobot": 0.4943390450358223,
+        "F1_deteksi": 0.6363636363636364,
+        "F1_sentimen": 0.3748274672187715,
+        "F1_negatif": 0.6081081081081081,
+        "F1_netral": 0.0,
+        "F1_positif": 0.6052631578947368,
+        "akurasi": 0.8641456582633054
+      }
+    },
+    "artifact_id": "bade677b966535de"
+  },
+  {
+    "name": "DT | BoW (kata tunggal)",
+    "phase": "A",
+    "mode": "tanpa",
+    "family": "dt",
+    "variant": "BoW (kata tunggal)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.570048309178744,
+        "presisi": 0.5784313725490197,
+        "recall": 0.5619047619047619,
+        "F1_pasangan_berbobot": 0.5882511217840575,
+        "F1_deteksi": 0.7342995169082126,
+        "F1_sentimen": 0.3516079761693797,
+        "F1_negatif": 0.6402640264026402,
+        "F1_netral": 0.06666666666666667,
+        "F1_positif": 0.49382716049382713,
+        "akurasi": 0.8636363636363636
+      },
+      "test_ood": {
+        "F1_pasangan": 0.45038167938931295,
+        "presisi": 0.4796747967479675,
+        "recall": 0.4244604316546763,
+        "F1_pasangan_berbobot": 0.4048271934963512,
+        "F1_deteksi": 0.6564885496183206,
+        "F1_sentimen": 0.3202923015014519,
+        "F1_negatif": 0.4840764331210191,
+        "F1_netral": 0.06666666666666667,
+        "F1_positif": 0.5333333333333333,
+        "akurasi": 0.8361344537815126
+      }
+    },
+    "artifact_id": "a2ad93b688cc7564"
+  },
+  {
+    "name": "DT | BoW (kata tunggal)",
+    "phase": "A",
+    "mode": "duplikasi",
+    "family": "dt",
+    "variant": "BoW (kata tunggal)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.5169082125603865,
+        "presisi": 0.5245098039215687,
+        "recall": 0.5095238095238095,
+        "F1_pasangan_berbobot": 0.5135128450195182,
+        "F1_deteksi": 0.6908212560386473,
+        "F1_sentimen": 0.38508555306012915,
+        "F1_negatif": 0.5787545787545788,
+        "F1_netral": 0.13333333333333333,
+        "F1_positif": 0.5208333333333334,
+        "akurasi": 0.8446969696969697
+      },
+      "test_ood": {
+        "F1_pasangan": 0.46874999999999994,
+        "presisi": 0.5128205128205128,
+        "recall": 0.4316546762589928,
+        "F1_pasangan_berbobot": 0.4614895854756805,
+        "F1_deteksi": 0.6328125,
+        "F1_sentimen": 0.3510369435891258,
+        "F1_negatif": 0.4370860927152318,
+        "F1_netral": 0.08695652173913043,
+        "F1_positif": 0.6341463414634146,
+        "akurasi": 0.8389355742296919
+      }
+    },
+    "artifact_id": "895a2d817aeefe8e"
+  },
+  {
+    "name": "DT | BoW (kata tunggal)",
+    "phase": "A",
+    "mode": "random (RI+RD)",
+    "family": "dt",
+    "variant": "BoW (kata tunggal)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.5047619047619047,
+        "presisi": 0.5047619047619047,
+        "recall": 0.5047619047619047,
+        "F1_pasangan_berbobot": 0.5224115029109995,
+        "F1_deteksi": 0.6904761904761905,
+        "F1_sentimen": 0.3720000649165882,
+        "F1_negatif": 0.5754385964912281,
+        "F1_netral": 0.13953488372093023,
+        "F1_positif": 0.45652173913043476,
+        "akurasi": 0.8399621212121212
+      },
+      "test_ood": {
+        "F1_pasangan": 0.4784313725490196,
+        "presisi": 0.5258620689655172,
+        "recall": 0.43884892086330934,
+        "F1_pasangan_berbobot": 0.4735901388943285,
+        "F1_deteksi": 0.6588235294117647,
+        "F1_sentimen": 0.3518093193615015,
+        "F1_negatif": 0.4657534246575342,
+        "F1_netral": 0.07692307692307693,
+        "F1_positif": 0.6265060240963856,
+        "akurasi": 0.8459383753501402
+      }
+    },
+    "artifact_id": "0b9c4665cf3c99ff"
+  },
+  {
+    "name": "DT | BoW (kata tunggal)",
+    "phase": "A",
+    "mode": "semantik (SI+SD)",
+    "family": "dt",
+    "variant": "BoW (kata tunggal)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.5305164319248825,
+        "presisi": 0.5231481481481481,
+        "recall": 0.5380952380952381,
+        "F1_pasangan_berbobot": 0.5446306473756208,
+        "F1_deteksi": 0.6948356807511737,
+        "F1_sentimen": 0.4133046859167717,
+        "F1_negatif": 0.5964912280701754,
+        "F1_netral": 0.18604651162790697,
+        "F1_positif": 0.4897959183673469,
+        "akurasi": 0.84375
+      },
+      "test_ood": {
+        "F1_pasangan": 0.4674329501915709,
+        "presisi": 0.5,
+        "recall": 0.43884892086330934,
+        "F1_pasangan_berbobot": 0.4584130611345897,
+        "F1_deteksi": 0.6896551724137931,
+        "F1_sentimen": 0.3698474781697842,
+        "F1_negatif": 0.4413793103448276,
+        "F1_netral": 0.07407407407407407,
+        "F1_positif": 0.6292134831460674,
+        "akurasi": 0.84593837535014
+      }
+    },
+    "artifact_id": "0c852f3f1c0dd324"
+  },
+  {
+    "name": "DT | BoW (kata tunggal)",
+    "phase": "A",
+    "mode": "EDA lengkap (RI+RD+SI+SD)",
+    "family": "dt",
+    "variant": "BoW (kata tunggal)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.494061757719715,
+        "presisi": 0.4928909952606635,
+        "recall": 0.49523809523809526,
+        "F1_pasangan_berbobot": 0.46673897342534987,
+        "F1_deteksi": 0.6935866983372921,
+        "F1_sentimen": 0.3724588808998183,
+        "F1_negatif": 0.5539568345323741,
+        "F1_netral": 0.13953488372093023,
+        "F1_positif": 0.48,
+        "akurasi": 0.8380681818181818
+      },
+      "test_ood": {
+        "F1_pasangan": 0.4627450980392157,
+        "presisi": 0.5086206896551724,
+        "recall": 0.4244604316546763,
+        "F1_pasangan_berbobot": 0.4587232608337098,
+        "F1_deteksi": 0.6823529411764706,
+        "F1_sentimen": 0.3481453700429449,
+        "F1_negatif": 0.4413793103448276,
+        "F1_netral": 0.0,
+        "F1_positif": 0.6352941176470588,
+        "akurasi": 0.8473389355742297
+      }
+    },
+    "artifact_id": "9cf83738263c278e"
+  },
+  {
+    "name": "DT | N-gram (1-3 kata)",
+    "phase": "A",
+    "mode": "tanpa",
+    "family": "dt",
+    "variant": "N-gram (1-3 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.5454545454545454,
+        "presisi": 0.5480769230769231,
+        "recall": 0.5428571428571428,
+        "F1_pasangan_berbobot": 0.6069978412821163,
+        "F1_deteksi": 0.7177033492822966,
+        "F1_sentimen": 0.3389941221246026,
+        "F1_negatif": 0.6312292358803987,
+        "F1_netral": 0.18181818181818182,
+        "F1_positif": 0.38095238095238093,
+        "akurasi": 0.8541666666666666
+      },
+      "test_ood": {
+        "F1_pasangan": 0.47232472324723246,
+        "presisi": 0.48484848484848486,
+        "recall": 0.460431654676259,
+        "F1_pasangan_berbobot": 0.41880294887846164,
+        "F1_deteksi": 0.6642066420664207,
+        "F1_sentimen": 0.3429635602838217,
+        "F1_negatif": 0.4942528735632184,
+        "F1_netral": 0.0,
+        "F1_positif": 0.56,
+        "akurasi": 0.8361344537815126
+      }
+    },
+    "artifact_id": "501f4fb5c7f8fef5"
+  },
+  {
+    "name": "DT | N-gram (1-3 kata)",
+    "phase": "A",
+    "mode": "duplikasi",
+    "family": "dt",
+    "variant": "N-gram (1-3 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.47368421052631576,
+        "presisi": 0.47596153846153844,
+        "recall": 0.4714285714285714,
+        "F1_pasangan_berbobot": 0.46401999188716386,
+        "F1_deteksi": 0.6507177033492823,
+        "F1_sentimen": 0.33672592898561066,
+        "F1_negatif": 0.5403508771929825,
+        "F1_netral": 0.13636363636363635,
+        "F1_positif": 0.42696629213483145,
+        "akurasi": 0.8267045454545455
+      },
+      "test_ood": {
+        "F1_pasangan": 0.4452554744525547,
+        "presisi": 0.45185185185185184,
+        "recall": 0.43884892086330934,
+        "F1_pasangan_berbobot": 0.42542451579684537,
+        "F1_deteksi": 0.6204379562043796,
+        "F1_sentimen": 0.3324675324675324,
+        "F1_negatif": 0.4539877300613497,
+        "F1_netral": 0.0,
+        "F1_positif": 0.5714285714285714,
+        "akurasi": 0.8207282913165267
+      }
+    },
+    "artifact_id": "3a65ab09f8f77d8c"
+  },
+  {
+    "name": "DT | N-gram (1-3 kata)",
+    "phase": "A",
+    "mode": "random (RI+RD)",
+    "family": "dt",
+    "variant": "N-gram (1-3 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.4939467312348668,
+        "presisi": 0.5024630541871922,
+        "recall": 0.4857142857142857,
+        "F1_pasangan_berbobot": 0.5252579724204021,
+        "F1_deteksi": 0.6585956416464891,
+        "F1_sentimen": 0.33776070621615856,
+        "F1_negatif": 0.5683453237410072,
+        "F1_netral": 0.18181818181818182,
+        "F1_positif": 0.4175824175824176,
+        "akurasi": 0.8342803030303031
+      },
+      "test_ood": {
+        "F1_pasangan": 0.46494464944649444,
+        "presisi": 0.4772727272727273,
+        "recall": 0.45323741007194246,
+        "F1_pasangan_berbobot": 0.44662949696695875,
+        "F1_deteksi": 0.6199261992619927,
+        "F1_sentimen": 0.35803393021018076,
+        "F1_negatif": 0.4774193548387097,
+        "F1_netral": 0.0,
+        "F1_positif": 0.5977011494252874,
+        "akurasi": 0.8263305322128852
+      }
+    },
+    "artifact_id": "3b789cb415e860ea"
+  },
+  {
+    "name": "DT | N-gram (1-3 kata)",
+    "phase": "A",
+    "mode": "semantik (SI+SD)",
+    "family": "dt",
+    "variant": "N-gram (1-3 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.46976744186046515,
+        "presisi": 0.4590909090909091,
+        "recall": 0.48095238095238096,
+        "F1_pasangan_berbobot": 0.45747622790001263,
+        "F1_deteksi": 0.6837209302325581,
+        "F1_sentimen": 0.3404343782381443,
+        "F1_negatif": 0.5512367491166078,
+        "F1_netral": 0.12244897959183673,
+        "F1_positif": 0.40816326530612246,
+        "akurasi": 0.8276515151515151
+      },
+      "test_ood": {
+        "F1_pasangan": 0.45818181818181825,
+        "presisi": 0.4632352941176471,
+        "recall": 0.45323741007194246,
+        "F1_pasangan_berbobot": 0.43380474832986904,
+        "F1_deteksi": 0.6472727272727272,
+        "F1_sentimen": 0.37639206710314194,
+        "F1_negatif": 0.4528301886792453,
+        "F1_netral": 0.07692307692307693,
+        "F1_positif": 0.5777777777777777,
+        "akurasi": 0.8277310924369748
+      }
+    },
+    "artifact_id": "c304994cc1332969"
+  },
+  {
+    "name": "DT | N-gram (1-3 kata)",
+    "phase": "A",
+    "mode": "EDA lengkap (RI+RD+SI+SD)",
+    "family": "dt",
+    "variant": "N-gram (1-3 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.463302752293578,
+        "presisi": 0.4469026548672566,
+        "recall": 0.48095238095238096,
+        "F1_pasangan_berbobot": 0.45511041061171337,
+        "F1_deteksi": 0.6605504587155964,
+        "F1_sentimen": 0.3512891710282014,
+        "F1_negatif": 0.5379310344827586,
+        "F1_netral": 0.1702127659574468,
+        "F1_positif": 0.3838383838383838,
+        "akurasi": 0.819128787878788
+      },
+      "test_ood": {
+        "F1_pasangan": 0.4855072463768116,
+        "presisi": 0.48905109489051096,
+        "recall": 0.48201438848920863,
+        "F1_pasangan_berbobot": 0.48076409664793535,
+        "F1_deteksi": 0.6739130434782609,
+        "F1_sentimen": 0.3870014431487727,
+        "F1_negatif": 0.484472049689441,
+        "F1_netral": 0.0,
+        "F1_positif": 0.6292134831460674,
+        "akurasi": 0.8375350140056023
+      }
+    },
+    "artifact_id": "466d8a2db04a1d65"
+  },
+  {
+    "name": "DT | TF-IDF (1-2 kata)",
+    "phase": "A",
+    "mode": "tanpa",
+    "family": "dt",
+    "variant": "TF-IDF (1-2 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.5268292682926828,
+        "presisi": 0.54,
+        "recall": 0.5142857142857142,
+        "F1_pasangan_berbobot": 0.5595617360856802,
+        "F1_deteksi": 0.7268292682926829,
+        "F1_sentimen": 0.30577143593797945,
+        "F1_negatif": 0.6112956810631229,
+        "F1_netral": 0.0,
+        "F1_positif": 0.42105263157894735,
+        "akurasi": 0.8551136363636364
+      },
+      "test_ood": {
+        "F1_pasangan": 0.4868913857677903,
+        "presisi": 0.5078125,
+        "recall": 0.4676258992805755,
+        "F1_pasangan_berbobot": 0.4667206274064663,
+        "F1_deteksi": 0.6591760299625468,
+        "F1_sentimen": 0.31910599411118556,
+        "F1_negatif": 0.5084745762711864,
+        "F1_netral": 0.0,
+        "F1_positif": 0.6060606060606061,
+        "akurasi": 0.8403361344537815
+      }
+    },
+    "artifact_id": "df47ea93c5231d98"
+  },
+  {
+    "name": "DT | TF-IDF (1-2 kata)",
+    "phase": "A",
+    "mode": "duplikasi",
+    "family": "dt",
+    "variant": "TF-IDF (1-2 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.5606060606060607,
+        "presisi": 0.5967741935483871,
+        "recall": 0.5285714285714286,
+        "F1_pasangan_berbobot": 0.5445736251842879,
+        "F1_deteksi": 0.7171717171717171,
+        "F1_sentimen": 0.3680311708762018,
+        "F1_negatif": 0.6330935251798561,
+        "F1_netral": 0.15,
+        "F1_positif": 0.5128205128205128,
+        "akurasi": 0.8645833333333334
+      },
+      "test_ood": {
+        "F1_pasangan": 0.4032921810699589,
+        "presisi": 0.47115384615384615,
+        "recall": 0.35251798561151076,
+        "F1_pasangan_berbobot": 0.2861653151503874,
+        "F1_deteksi": 0.5843621399176955,
+        "F1_sentimen": 0.27214444911813335,
+        "F1_negatif": 0.3829787234042553,
+        "F1_netral": 0.07407407407407407,
+        "F1_positif": 0.56,
+        "akurasi": 0.8277310924369748
+      }
+    },
+    "artifact_id": "ce4bd447a7ab4c23"
+  },
+  {
+    "name": "DT | TF-IDF (1-2 kata)",
+    "phase": "A",
+    "mode": "random (RI+RD)",
+    "family": "dt",
+    "variant": "TF-IDF (1-2 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.5500000000000002,
+        "presisi": 0.5789473684210527,
+        "recall": 0.5238095238095238,
+        "F1_pasangan_berbobot": 0.5705133224566232,
+        "F1_deteksi": 0.7,
+        "F1_sentimen": 0.4194920326802695,
+        "F1_negatif": 0.6120996441281139,
+        "F1_netral": 0.18604651162790697,
+        "F1_positif": 0.5263157894736842,
+        "akurasi": 0.8579545454545455
+      },
+      "test_ood": {
+        "F1_pasangan": 0.45783132530120485,
+        "presisi": 0.5181818181818182,
+        "recall": 0.41007194244604317,
+        "F1_pasangan_berbobot": 0.38920794556099286,
+        "F1_deteksi": 0.6265060240963856,
+        "F1_sentimen": 0.33201802460114477,
+        "F1_negatif": 0.44594594594594594,
+        "F1_netral": 0.08,
+        "F1_positif": 0.6052631578947368,
+        "akurasi": 0.8403361344537815
+      }
+    },
+    "artifact_id": "5cd6c3f780dccc00"
+  },
+  {
+    "name": "DT | TF-IDF (1-2 kata)",
+    "phase": "A",
+    "mode": "semantik (SI+SD)",
+    "family": "dt",
+    "variant": "TF-IDF (1-2 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.5239294710327457,
+        "presisi": 0.5561497326203209,
+        "recall": 0.49523809523809526,
+        "F1_pasangan_berbobot": 0.5455333518467662,
+        "F1_deteksi": 0.6750629722921915,
+        "F1_sentimen": 0.35882153263282435,
+        "F1_negatif": 0.5848375451263538,
+        "F1_netral": 0.15,
+        "F1_positif": 0.5,
+        "akurasi": 0.8494318181818183
+      },
+      "test_ood": {
+        "F1_pasangan": 0.4497991967871486,
+        "presisi": 0.509090909090909,
+        "recall": 0.4028776978417266,
+        "F1_pasangan_berbobot": 0.3362299215190442,
+        "F1_deteksi": 0.6024096385542169,
+        "F1_sentimen": 0.3320608444511953,
+        "F1_negatif": 0.40559440559440557,
+        "F1_netral": 0.08695652173913043,
+        "F1_positif": 0.6265060240963856,
+        "akurasi": 0.834733893557423
+      }
+    },
+    "artifact_id": "518944969927e8d0"
+  },
+  {
+    "name": "DT | TF-IDF (1-2 kata)",
+    "phase": "A",
+    "mode": "EDA lengkap (RI+RD+SI+SD)",
+    "family": "dt",
+    "variant": "TF-IDF (1-2 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.5508684863523573,
+        "presisi": 0.5751295336787565,
+        "recall": 0.5285714285714286,
+        "F1_pasangan_berbobot": 0.5609955168560294,
+        "F1_deteksi": 0.6997518610421837,
+        "F1_sentimen": 0.33432501950099297,
+        "F1_negatif": 0.6293706293706294,
+        "F1_netral": 0.05555555555555555,
+        "F1_positif": 0.49382716049382713,
+        "akurasi": 0.8570075757575758
+      },
+      "test_ood": {
+        "F1_pasangan": 0.46031746031746035,
+        "presisi": 0.5132743362831859,
+        "recall": 0.4172661870503597,
+        "F1_pasangan_berbobot": 0.35282789850843815,
+        "F1_deteksi": 0.6111111111111112,
+        "F1_sentimen": 0.33263963237081523,
+        "F1_negatif": 0.42953020134228187,
+        "F1_netral": 0.07142857142857142,
+        "F1_positif": 0.6666666666666666,
+        "akurasi": 0.8361344537815126
+      }
+    },
+    "artifact_id": "bedc7db4aec1880e"
+  },
+  {
+    "name": "BiLSTM | Acak",
+    "phase": "A",
+    "mode": "tanpa",
+    "family": "lstm",
+    "variant": "Acak",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "config": {
+      "hidden": 128,
+      "dropout": 0.3,
+      "lr": 0.003
+    },
+    "maxlen": 60,
+    "epoch": 15,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.5727923627684964,
+        "presisi": 0.5741626794258373,
+        "recall": 0.5714285714285714,
+        "F1_pasangan_berbobot": 0.5944380396046467,
+        "F1_deteksi": 0.6634844868735084,
+        "F1_sentimen": 0.4170339031837574,
+        "F1_negatif": 0.6291390728476821,
+        "F1_netral": 0.20408163265306123,
+        "F1_positif": 0.5882352941176471,
+        "akurasi": 0.8484848484848483
+      },
+      "test_ood": {
+        "F1_pasangan": 0.4518518518518519,
+        "presisi": 0.46564885496183206,
+        "recall": 0.43884892086330934,
+        "F1_pasangan_berbobot": 0.34152765342722335,
+        "F1_deteksi": 0.6074074074074074,
+        "F1_sentimen": 0.327730582621887,
+        "F1_negatif": 0.5,
+        "F1_netral": 0.15,
+        "F1_positif": 0.5135135135135135,
+        "akurasi": 0.8221288515406163
+      }
+    },
+    "artifact_id": "43735cf8a855f8d1"
+  },
+  {
+    "name": "BiLSTM | Acak",
+    "phase": "A",
+    "mode": "EDA lengkap (RI+RD+SI+SD)",
+    "family": "lstm",
+    "variant": "Acak",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "config": {
+      "hidden": 128,
+      "dropout": 0.3,
+      "lr": 0.003
+    },
+    "maxlen": 60,
+    "epoch": 15,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6029411764705882,
+        "presisi": 0.6212121212121212,
+        "recall": 0.5857142857142857,
+        "F1_pasangan_berbobot": 0.602066014545064,
+        "F1_deteksi": 0.6813725490196079,
+        "F1_sentimen": 0.3567893365835387,
+        "F1_negatif": 0.631578947368421,
+        "F1_netral": 0.18181818181818182,
+        "F1_positif": 0.676056338028169,
+        "akurasi": 0.8617424242424242
+      },
+      "test_ood": {
+        "F1_pasangan": 0.5263157894736842,
+        "presisi": 0.5511811023622047,
+        "recall": 0.5035971223021583,
+        "F1_pasangan_berbobot": 0.39537959890798086,
+        "F1_deteksi": 0.6090225563909775,
+        "F1_sentimen": 0.3751988618499655,
+        "F1_negatif": 0.5590062111801242,
+        "F1_netral": 0.0,
+        "F1_positif": 0.6024096385542169,
+        "akurasi": 0.838935574229692
+      }
+    },
+    "artifact_id": "f5e850146cd3eeeb"
+  },
+  {
+    "name": "BiLSTM | Word2Vec",
+    "phase": "A",
+    "mode": "tanpa",
+    "family": "lstm",
+    "variant": "Word2Vec",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "config": {
+      "hidden": 128,
+      "dropout": 0.3,
+      "lr": 0.003
+    },
+    "maxlen": 60,
+    "epoch": 15,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6225490196078431,
+        "presisi": 0.6414141414141414,
+        "recall": 0.6047619047619047,
+        "F1_pasangan_berbobot": 0.6654191168768985,
+        "F1_deteksi": 0.7303921568627451,
+        "F1_sentimen": 0.4361823361823362,
+        "F1_negatif": 0.6798679867986799,
+        "F1_netral": 0.15789473684210525,
+        "F1_positif": 0.6268656716417911,
+        "akurasi": 0.875
+      },
+      "test_ood": {
+        "F1_pasangan": 0.5886792452830187,
+        "presisi": 0.6190476190476191,
+        "recall": 0.5611510791366906,
+        "F1_pasangan_berbobot": 0.47362078238025385,
+        "F1_deteksi": 0.6792452830188679,
+        "F1_sentimen": 0.4051872556305587,
+        "F1_negatif": 0.6198830409356725,
+        "F1_netral": 0.0,
+        "F1_positif": 0.6944444444444444,
+        "akurasi": 0.8641456582633054
+      }
+    },
+    "artifact_id": "dfbbe9c48492f7b2"
+  },
+  {
+    "name": "BiLSTM | Word2Vec",
+    "phase": "A",
+    "mode": "EDA lengkap (RI+RD+SI+SD)",
+    "family": "lstm",
+    "variant": "Word2Vec",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "config": {
+      "hidden": 128,
+      "dropout": 0.3,
+      "lr": 0.003
+    },
+    "maxlen": 60,
+    "epoch": 15,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.639618138424821,
+        "presisi": 0.6411483253588517,
+        "recall": 0.638095238095238,
+        "F1_pasangan_berbobot": 0.6147418927012188,
+        "F1_deteksi": 0.7255369928400954,
+        "F1_sentimen": 0.4187014605344914,
+        "F1_negatif": 0.673202614379085,
+        "F1_netral": 0.22857142857142856,
+        "F1_positif": 0.6923076923076923,
+        "akurasi": 0.8740530303030303
+      },
+      "test_ood": {
+        "F1_pasangan": 0.5639097744360901,
+        "presisi": 0.5905511811023622,
+        "recall": 0.539568345323741,
+        "F1_pasangan_berbobot": 0.4252873089132787,
+        "F1_deteksi": 0.6616541353383458,
+        "F1_sentimen": 0.4290826892820594,
+        "F1_negatif": 0.5432098765432098,
+        "F1_netral": 0.16,
+        "F1_positif": 0.7341772151898734,
+        "akurasi": 0.8557422969187676
+      }
+    },
+    "artifact_id": "ad2a584753515b4c"
+  },
+  {
+    "name": "BiLSTM | FastText",
+    "phase": "A",
+    "mode": "tanpa",
+    "family": "lstm",
+    "variant": "FastText",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "config": {
+      "hidden": 128,
+      "dropout": 0.3,
+      "lr": 0.003
+    },
+    "maxlen": 60,
+    "epoch": 15,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6291560102301791,
+        "presisi": 0.6795580110497238,
+        "recall": 0.5857142857142857,
+        "F1_pasangan_berbobot": 0.6326414579168954,
+        "F1_deteksi": 0.7161125319693095,
+        "F1_sentimen": 0.4238499786180714,
+        "F1_negatif": 0.6690647482014388,
+        "F1_netral": 0.23809523809523808,
+        "F1_positif": 0.704225352112676,
+        "akurasi": 0.8787878787878788
+      },
+      "test_ood": {
+        "F1_pasangan": 0.5593869731800766,
+        "presisi": 0.5983606557377049,
+        "recall": 0.5251798561151079,
+        "F1_pasangan_berbobot": 0.42026114537055453,
+        "F1_deteksi": 0.6819923371647509,
+        "F1_sentimen": 0.4012207807099448,
+        "F1_negatif": 0.5477707006369427,
+        "F1_netral": 0.07407407407407407,
+        "F1_positif": 0.7532467532467533,
+        "akurasi": 0.8613445378151261
+      }
+    },
+    "artifact_id": "45332abc603fe527"
+  },
+  {
+    "name": "BiLSTM | FastText",
+    "phase": "A",
+    "mode": "EDA lengkap (RI+RD+SI+SD)",
+    "family": "lstm",
+    "variant": "FastText",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "config": {
+      "hidden": 128,
+      "dropout": 0.3,
+      "lr": 0.003
+    },
+    "maxlen": 60,
+    "epoch": 15,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6748166259168704,
+        "presisi": 0.6934673366834171,
+        "recall": 0.6571428571428571,
+        "F1_pasangan_berbobot": 0.6696948688454865,
+        "F1_deteksi": 0.7530562347188264,
+        "F1_sentimen": 0.4369463329460305,
+        "F1_negatif": 0.7181208053691275,
+        "F1_netral": 0.23529411764705882,
+        "F1_positif": 0.7012987012987013,
+        "akurasi": 0.8892045454545455
+      },
+      "test_ood": {
+        "F1_pasangan": 0.5984848484848484,
+        "presisi": 0.632,
+        "recall": 0.5683453237410072,
+        "F1_pasangan_berbobot": 0.4806497822762316,
+        "F1_deteksi": 0.6818181818181818,
+        "F1_sentimen": 0.42729893968929056,
+        "F1_negatif": 0.5975609756097561,
+        "F1_netral": 0.1,
+        "F1_positif": 0.725,
+        "akurasi": 0.8669467787114846
+      }
+    },
+    "artifact_id": "51cd581d88b432df"
+  },
+  {
+    "name": "IndoBERT | CLS",
+    "phase": "A",
+    "mode": "tanpa",
+    "family": "bert",
+    "variant": "IndoBERT | CLS",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "hub": "indobenchmark/indobert-base-p1",
+    "pool": "cls",
+    "maxlen": 96,
+    "epoch": 10,
+    "val_f1": 0.7058823529411764,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.7096774193548387,
+        "presisi": 0.7409326424870466,
+        "recall": 0.680952380952381,
+        "F1_pasangan_berbobot": 0.6871739623942085,
+        "F1_deteksi": 0.7890818858560794,
+        "F1_sentimen": 0.4569074393403714,
+        "F1_negatif": 0.743421052631579,
+        "F1_netral": 0.20689655172413793,
+        "F1_positif": 0.7714285714285715,
+        "akurasi": 0.9043560606060607
+      },
+      "test_ood": {
+        "F1_pasangan": 0.6872586872586872,
+        "presisi": 0.7416666666666667,
+        "recall": 0.6402877697841727,
+        "F1_pasangan_berbobot": 0.6338622213295843,
+        "F1_deteksi": 0.7644787644787645,
+        "F1_sentimen": 0.4739937330517041,
+        "F1_negatif": 0.6993865030674846,
+        "F1_netral": 0.19047619047619047,
+        "F1_positif": 0.8,
+        "akurasi": 0.9005602240896359
+      }
+    },
+    "artifact_id": "a5ba7ab2776e594e"
+  },
+  {
+    "name": "IndoBERT | CLS",
+    "phase": "A",
+    "mode": "EDA lengkap (RI+RD+SI+SD)",
+    "family": "bert",
+    "variant": "IndoBERT | CLS",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "hub": "indobenchmark/indobert-base-p1",
+    "pool": "cls",
+    "maxlen": 96,
+    "epoch": 3,
+    "val_f1": 0.6971830985915494,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6938775510204082,
+        "presisi": 0.6623376623376623,
+        "recall": 0.7285714285714285,
+        "F1_pasangan_berbobot": 0.6690643356848235,
+        "F1_deteksi": 0.780045351473923,
+        "F1_sentimen": 0.44584750022449127,
+        "F1_negatif": 0.7359050445103857,
+        "F1_netral": 0.25806451612903225,
+        "F1_positif": 0.684931506849315,
+        "akurasi": 0.8901515151515151
+      },
+      "test_ood": {
+        "F1_pasangan": 0.6552901023890785,
+        "presisi": 0.6233766233766234,
+        "recall": 0.6906474820143885,
+        "F1_pasangan_berbobot": 0.5542377223763825,
+        "F1_deteksi": 0.7440273037542662,
+        "F1_sentimen": 0.46990706201912186,
+        "F1_negatif": 0.6836734693877551,
+        "F1_netral": 0.10526315789473684,
+        "F1_positif": 0.717948717948718,
+        "akurasi": 0.876750700280112
+      }
+    },
+    "artifact_id": "629807ed506f92da"
+  },
+  {
+    "name": "IndoBERT | mean-pool",
+    "phase": "A",
+    "mode": "tanpa",
+    "family": "bert",
+    "variant": "IndoBERT | mean-pool",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "hub": "indobenchmark/indobert-base-p1",
+    "pool": "mean",
+    "maxlen": 96,
+    "epoch": 7,
+    "val_f1": 0.7203065134099617,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.687960687960688,
+        "presisi": 0.7106598984771574,
+        "recall": 0.6666666666666666,
+        "F1_pasangan_berbobot": 0.6768970040744481,
+        "F1_deteksi": 0.7911547911547911,
+        "F1_sentimen": 0.45915194110049223,
+        "F1_negatif": 0.7254901960784313,
+        "F1_netral": 0.12903225806451613,
+        "F1_positif": 0.7714285714285715,
+        "akurasi": 0.899621212121212
+      },
+      "test_ood": {
+        "F1_pasangan": 0.7045454545454545,
+        "presisi": 0.744,
+        "recall": 0.6690647482014388,
+        "F1_pasangan_berbobot": 0.645344878340326,
+        "F1_deteksi": 0.7878787878787878,
+        "F1_sentimen": 0.48459457325024546,
+        "F1_negatif": 0.7218934911242604,
+        "F1_netral": 0.19047619047619047,
+        "F1_positif": 0.8108108108108109,
+        "akurasi": 0.9061624649859944
+      }
+    },
+    "artifact_id": "7ada3282d88bd89a"
+  },
+  {
+    "name": "IndoBERT | mean-pool",
+    "phase": "A",
+    "mode": "EDA lengkap (RI+RD+SI+SD)",
+    "family": "bert",
+    "variant": "IndoBERT | mean-pool",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "hub": "indobenchmark/indobert-base-p1",
+    "pool": "mean",
+    "maxlen": 96,
+    "epoch": 3,
+    "val_f1": 0.7054794520547946,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6864988558352403,
+        "presisi": 0.6607929515418502,
+        "recall": 0.7142857142857143,
+        "F1_pasangan_berbobot": 0.6718042071109686,
+        "F1_deteksi": 0.7734553775743707,
+        "F1_sentimen": 0.4639479591233977,
+        "F1_negatif": 0.7147147147147147,
+        "F1_netral": 0.20689655172413793,
+        "F1_positif": 0.7466666666666667,
+        "akurasi": 0.8882575757575758
+      },
+      "test_ood": {
+        "F1_pasangan": 0.6456140350877192,
+        "presisi": 0.6301369863013698,
+        "recall": 0.6618705035971223,
+        "F1_pasangan_berbobot": 0.5619259180179107,
+        "F1_deteksi": 0.7298245614035088,
+        "F1_sentimen": 0.4580721747388414,
+        "F1_negatif": 0.6526315789473685,
+        "F1_netral": 0.10526315789473684,
+        "F1_positif": 0.7631578947368421,
+        "akurasi": 0.8753501400560224
+      }
+    },
+    "artifact_id": "218d391af0e2cee8"
+  },
+  {
+    "name": "IndoLEM | CLS",
+    "phase": "A",
+    "mode": "tanpa",
+    "family": "bert",
+    "variant": "IndoLEM | CLS",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "hub": "indolem/indobert-base-uncased",
+    "pool": "cls",
+    "maxlen": 96,
+    "epoch": 9,
+    "val_f1": 0.6382978723404256,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.597285067873303,
+        "presisi": 0.5689655172413793,
+        "recall": 0.6285714285714286,
+        "F1_pasangan_berbobot": 0.5751907087194137,
+        "F1_deteksi": 0.6877828054298643,
+        "F1_sentimen": 0.4747616648437442,
+        "F1_negatif": 0.6412698412698413,
+        "F1_netral": 0.11428571428571428,
+        "F1_positif": 0.6304347826086957,
+        "akurasi": 0.8503787878787881
+      },
+      "test_ood": {
+        "F1_pasangan": 0.5517241379310345,
+        "presisi": 0.5298013245033113,
+        "recall": 0.5755395683453237,
+        "F1_pasangan_berbobot": 0.48596623133665656,
+        "F1_deteksi": 0.6344827586206897,
+        "F1_sentimen": 0.4660511434999191,
+        "F1_negatif": 0.6127167630057804,
+        "F1_netral": 0.16666666666666666,
+        "F1_positif": 0.5376344086021505,
+        "akurasi": 0.834733893557423
+      }
+    },
+    "artifact_id": "360c46206de80d32"
+  },
+  {
+    "name": "IndoLEM | CLS",
+    "phase": "A",
+    "mode": "EDA lengkap (RI+RD+SI+SD)",
+    "family": "bert",
+    "variant": "IndoLEM | CLS",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "hub": "indolem/indobert-base-uncased",
+    "pool": "cls",
+    "maxlen": 96,
+    "epoch": 10,
+    "val_f1": 0.6865671641791045,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6585365853658537,
+        "presisi": 0.675,
+        "recall": 0.6428571428571429,
+        "F1_pasangan_berbobot": 0.6351220508924543,
+        "F1_deteksi": 0.7463414634146341,
+        "F1_sentimen": 0.4963872675157359,
+        "F1_negatif": 0.695364238410596,
+        "F1_netral": 0.25,
+        "F1_positif": 0.6842105263157895,
+        "akurasi": 0.8844696969696969
+      },
+      "test_ood": {
+        "F1_pasangan": 0.6159695817490495,
+        "presisi": 0.6532258064516129,
+        "recall": 0.5827338129496403,
+        "F1_pasangan_berbobot": 0.5557865488766912,
+        "F1_deteksi": 0.6996197718631179,
+        "F1_sentimen": 0.4152547634252215,
+        "F1_negatif": 0.6666666666666666,
+        "F1_netral": 0.0,
+        "F1_positif": 0.6666666666666666,
+        "akurasi": 0.8739495798319328
+      }
+    },
+    "artifact_id": "b958089f63b01638"
+  },
+  {
+    "name": "LogReg TF-IDF",
+    "phase": "B",
+    "mode": "gold+pseudo",
+    "family": "lr",
+    "variant": null,
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6873614190687362,
+        "presisi": 0.6431535269709544,
+        "recall": 0.7380952380952381,
+        "F1_pasangan_berbobot": 0.6998285996103962,
+        "F1_deteksi": 0.7893569844789357,
+        "F1_sentimen": 0.45182055379512565,
+        "F1_negatif": 0.7374631268436578,
+        "F1_netral": 0.25,
+        "F1_positif": 0.65,
+        "akurasi": 0.8882575757575758
+      },
+      "test_ood": {
+        "F1_pasangan": 0.6551724137931034,
+        "presisi": 0.6291390728476821,
+        "recall": 0.6834532374100719,
+        "F1_pasangan_berbobot": 0.5342632631236341,
+        "F1_deteksi": 0.7655172413793103,
+        "F1_sentimen": 0.44312131677327754,
+        "F1_negatif": 0.6947368421052632,
+        "F1_netral": 0.0,
+        "F1_positif": 0.7160493827160493,
+        "akurasi": 0.8823529411764707
+      }
+    },
+    "artifact_id": "ddd40be67b6bcf72"
+  },
+  {
+    "name": "LogReg TF-IDF",
+    "phase": "B",
+    "mode": "gold+pseudo+EDA",
+    "family": "lr",
+    "variant": null,
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6917960088691797,
+        "presisi": 0.6473029045643154,
+        "recall": 0.7428571428571429,
+        "F1_pasangan_berbobot": 0.7086840062460565,
+        "F1_deteksi": 0.7937915742793792,
+        "F1_sentimen": 0.45280475477932663,
+        "F1_negatif": 0.7411764705882353,
+        "F1_netral": 0.25806451612903225,
+        "F1_positif": 0.65,
+        "akurasi": 0.8901515151515151
+      },
+      "test_ood": {
+        "F1_pasangan": 0.6552901023890785,
+        "presisi": 0.6233766233766234,
+        "recall": 0.6906474820143885,
+        "F1_pasangan_berbobot": 0.5317175142585865,
+        "F1_deteksi": 0.764505119453925,
+        "F1_sentimen": 0.44453635307203476,
+        "F1_negatif": 0.6907216494845361,
+        "F1_netral": 0.0,
+        "F1_positif": 0.725,
+        "akurasi": 0.880952380952381
+      }
+    },
+    "artifact_id": "8db622107096cdfb"
+  },
+  {
+    "name": "DT | N-gram (1-3 kata)",
+    "phase": "B",
+    "mode": "gold+pseudo",
+    "family": "dt",
+    "variant": "N-gram (1-3 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6045454545454545,
+        "presisi": 0.5782608695652174,
+        "recall": 0.6333333333333333,
+        "F1_pasangan_berbobot": 0.6148659189309275,
+        "F1_deteksi": 0.7318181818181818,
+        "F1_sentimen": 0.3943735496970107,
+        "F1_negatif": 0.6606060606060606,
+        "F1_netral": 0.13333333333333333,
+        "F1_positif": 0.55,
+        "akurasi": 0.8617424242424242
+      },
+      "test_ood": {
+        "F1_pasangan": 0.5220338983050847,
+        "presisi": 0.4935897435897436,
+        "recall": 0.5539568345323741,
+        "F1_pasangan_berbobot": 0.4203219093678067,
+        "F1_deteksi": 0.7254237288135593,
+        "F1_sentimen": 0.39722671350916827,
+        "F1_negatif": 0.5463917525773195,
+        "F1_netral": 0.09090909090909091,
+        "F1_positif": 0.5822784810126582,
+        "akurasi": 0.8445378151260505
+      }
+    },
+    "artifact_id": "b399860313e2d480"
+  },
+  {
+    "name": "DT | N-gram (1-3 kata)",
+    "phase": "B",
+    "mode": "gold+pseudo+EDA",
+    "family": "dt",
+    "variant": "N-gram (1-3 kata)",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.6247191011235955,
+        "presisi": 0.5914893617021276,
+        "recall": 0.6619047619047619,
+        "F1_pasangan_berbobot": 0.6340238968372361,
+        "F1_deteksi": 0.7595505617977528,
+        "F1_sentimen": 0.4033356177595024,
+        "F1_negatif": 0.6863905325443787,
+        "F1_netral": 0.14285714285714285,
+        "F1_positif": 0.5316455696202531,
+        "akurasi": 0.8702651515151515
+      },
+      "test_ood": {
+        "F1_pasangan": 0.5314685314685316,
+        "presisi": 0.5170068027210885,
+        "recall": 0.5467625899280576,
+        "F1_pasangan_berbobot": 0.4198828221846225,
+        "F1_deteksi": 0.7202797202797203,
+        "F1_sentimen": 0.4009156387123363,
+        "F1_negatif": 0.5473684210526316,
+        "F1_netral": 0.10526315789473684,
+        "F1_positif": 0.5974025974025974,
+        "akurasi": 0.8501400560224089
+      }
+    },
+    "artifact_id": "113b3df3ad4cb2d3"
+  },
+  {
+    "name": "BiLSTM | Word2Vec",
+    "phase": "B",
+    "mode": "gold+pseudo",
+    "family": "lstm",
+    "variant": "Word2Vec",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "config": {
+      "hidden": 128,
+      "dropout": 0.3,
+      "lr": 0.003
+    },
+    "maxlen": 60,
+    "epoch": 1,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.7061611374407584,
+        "presisi": 0.7028301886792453,
+        "recall": 0.7095238095238096,
+        "F1_pasangan_berbobot": 0.6673693366962695,
+        "F1_deteksi": 0.8009478672985783,
+        "F1_sentimen": 0.5155890998404259,
+        "F1_negatif": 0.7476038338658147,
+        "F1_netral": 0.25806451612903225,
+        "F1_positif": 0.717948717948718,
+        "akurasi": 0.9015151515151515
+      },
+      "test_ood": {
+        "F1_pasangan": 0.6808510638297872,
+        "presisi": 0.6713286713286714,
+        "recall": 0.6906474820143885,
+        "F1_pasangan_berbobot": 0.5684510704945405,
+        "F1_deteksi": 0.8014184397163121,
+        "F1_sentimen": 0.5020547266049515,
+        "F1_negatif": 0.7011494252873564,
+        "F1_netral": 0.16666666666666666,
+        "F1_positif": 0.7857142857142857,
+        "akurasi": 0.8977591036414566
+      }
+    },
+    "artifact_id": "02091d0912544663"
+  },
+  {
+    "name": "BiLSTM | Word2Vec",
+    "phase": "B",
+    "mode": "gold+pseudo+EDA",
+    "family": "lstm",
+    "variant": "Word2Vec",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "config": {
+      "hidden": 128,
+      "dropout": 0.3,
+      "lr": 0.003
+    },
+    "maxlen": 60,
+    "epoch": 1,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.7172413793103448,
+        "presisi": 0.6933333333333334,
+        "recall": 0.7428571428571429,
+        "F1_pasangan_berbobot": 0.6915023151606341,
+        "F1_deteksi": 0.8045977011494253,
+        "F1_sentimen": 0.49465397595478894,
+        "F1_negatif": 0.7610062893081762,
+        "F1_netral": 0.35294117647058826,
+        "F1_positif": 0.6987951807228916,
+        "akurasi": 0.9015151515151515
+      },
+      "test_ood": {
+        "F1_pasangan": 0.6782006920415224,
+        "presisi": 0.6533333333333333,
+        "recall": 0.7050359712230215,
+        "F1_pasangan_berbobot": 0.5613403881078564,
+        "F1_deteksi": 0.7750865051903114,
+        "F1_sentimen": 0.5248070256155687,
+        "F1_negatif": 0.6888888888888889,
+        "F1_netral": 0.17391304347826086,
+        "F1_positif": 0.7906976744186046,
+        "akurasi": 0.8893557422969188
+      }
+    },
+    "artifact_id": "4b5b0db4d3f0279c"
+  },
+  {
+    "name": "IndoBERT | mean-pool",
+    "phase": "B",
+    "mode": "gold+pseudo",
+    "family": "bert",
+    "variant": "IndoBERT | mean-pool",
+    "seed": 42,
+    "labels": [
+      "a_keamanan",
+      "a_dana",
+      "a_transaksi",
+      "a_blokir",
+      "a_akses",
+      "a_biaya"
+    ],
+    "aspects": {
+      "keamanan": "Keamanan dan Penipuan",
+      "dana": "Dana dan Saldo",
+      "transaksi": "Transaksi",
+      "blokir": "Verifikasi dan Pemblokiran",
+      "akses": "Akses dan Login",
+      "biaya": "Biaya dan Limit"
+    },
+    "polarity": {
+      "0": "tidak dibahas",
+      "1": "negatif",
+      "2": "netral",
+      "3": "positif"
+    },
+    "sklearn": "1.6.1",
+    "torch": "2.14.1+cu130",
+    "transformers": "5.22.1",
+    "hub": "indobenchmark/indobert-base-p1",
+    "pool": "mean",
+    "maxlen": 96,
+    "epoch": 3,
+    "val_f1": 0.7299270072992701,
+    "evaluation": {
+      "test_id": {
+        "F1_pasangan": 0.7255813953488373,
+        "presisi": 0.7090909090909091,
+        "recall": 0.7428571428571429,
+        "F1_pasangan_berbobot": 0.7201111635733686,
+        "F1_deteksi": 0.827906976744186,
+        "F1_sentimen": 0.47831354079082433,
+        "F1_negatif": 0.7763975155279503,
+        "F1_netral": 0.1935483870967742,
+        "F1_positif": 0.7272727272727273,
+        "akurasi": 0.9090909090909092
+      },
+      "test_ood": {
+        "F1_pasangan": 0.7216494845360826,
+        "presisi": 0.6907894736842105,
+        "recall": 0.7553956834532374,
+        "F1_pasangan_berbobot": 0.6406079637140739,
+        "F1_deteksi": 0.8384879725085911,
+        "F1_sentimen": 0.496601391276227,
+        "F1_negatif": 0.7593582887700535,
+        "F1_netral": 0.18181818181818182,
+        "F1_positif": 0.7804878048780488,
+        "akurasi": 0.9103641456582633
+      }
+    },
+    "artifact_id": "734c0ba772fa972b"
+  }
+]

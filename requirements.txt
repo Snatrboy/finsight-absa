@@ -1,0 +1,10 @@
+streamlit>=1.40,<2
+pandas>=2,<3
+numpy>=1.26,<3
+plotly>=5,<7
+scikit-learn==1.6.1
+joblib
+huggingface_hub
+transformers==5.22.1
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1+cpu

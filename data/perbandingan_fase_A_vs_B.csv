@@ -1,0 +1,9 @@
+model,uji,F1_A (gold),F1_B (semi),selisih,CI95_bawah,CI95_atas,kesimpulan
+LogReg TF-IDF (pembanding),test_id,0.662,0.687,0.026,-0.016,0.071,belum berbeda nyata
+LogReg TF-IDF (pembanding),test_ood,0.562,0.655,0.093,0.032,0.157,meningkat nyata
+DT | N-gram (1-3 kata),test_id,0.545,0.605,0.059,0.005,0.119,meningkat nyata
+DT | N-gram (1-3 kata),test_ood,0.472,0.522,0.05,-0.02,0.115,belum berbeda nyata
+BiLSTM (Word2Vec),test_id,0.623,0.706,0.084,0.037,0.13,meningkat nyata
+BiLSTM (Word2Vec),test_ood,0.589,0.681,0.092,0.044,0.144,meningkat nyata
+IndoBERT (fine-tuning),test_id,0.703,0.715,0.012,-0.021,0.046,belum berbeda nyata
+IndoBERT (fine-tuning),test_ood,0.669,0.72,0.051,-0.006,0.109,belum berbeda nyata
